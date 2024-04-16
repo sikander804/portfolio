@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.186a6e0e.css",
-    "main.js": "/portfolio/static/js/main.6d1151a7.js",
-    "static/media/bannerImg.png": "/portfolio/static/media/bannerImg.e78b4719765f5c9920d4.png",
+    "main.js": "/portfolio/static/js/main.90e2f769.js",
     "static/media/carRental.png": "/portfolio/static/media/carRental.488c99559d21d2723f8d.png",
+    "static/media/portfolio.png": "/portfolio/static/media/portfolio.bc01d24ffc8758b2355b.png",
     "static/media/leaderboard.png": "/portfolio/static/media/leaderboard.fa6b190fe07d6dd41c6b.png",
     "static/media/foodApp.png": "/portfolio/static/media/foodApp.638876459b2aaa759465.png",
     "static/media/HP_Char.png": "/portfolio/static/media/HP_Char.2331021937fd35063c02.png",
@@ -15,10 +15,10 @@
     "static/media/testimonialThree.png": "/portfolio/static/media/testimonialThree.90d3cd869359cfb7c408.png",
     "index.html": "/portfolio/index.html",
     "main.186a6e0e.css.map": "/portfolio/static/css/main.186a6e0e.css.map",
-    "main.6d1151a7.js.map": "/portfolio/static/js/main.6d1151a7.js.map"
+    "main.90e2f769.js.map": "/portfolio/static/js/main.90e2f769.js.map"
   },
   "entrypoints": [
     "static/css/main.186a6e0e.css",
-    "static/js/main.6d1151a7.js"
+    "static/js/main.90e2f769.js"
   ]
 }
