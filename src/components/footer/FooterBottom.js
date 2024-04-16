@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const FooterBottom = () => (
   <div className="w-full py-10">

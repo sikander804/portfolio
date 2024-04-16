@@ -1,20 +1,30 @@
-import React from 'react';
+import React from "react";
 import {
-  SiJavascript, SiRuby, SiRubyonrails, SiCss3, SiHtml5,
-  SiRedux, SiTailwindcss, SiWebpack, SiEslint, SiJest,
-} from 'react-icons/si';
-import { FaReact } from 'react-icons/fa';
-import Title from '../layouts/Title';
+  SiJavascript,
+  SiRuby,
+  SiRubyonrails,
+  SiCss3,
+  SiHtml5,
+  SiRedux,
+  SiTailwindcss,
+  SiWebpack,
+  SiEslint,
+  SiJest,
+} from "react-icons/si";
+import { FaReact } from "react-icons/fa";
+import Title from "../layouts/Title";
 import {
-  carRental, hpChar, math, space, foodApp, leaderboard,
-} from '../../assets/index';
-import ProjectsCard from './ProjectsCard';
+  carRental,
+  hpChar,
+  math,
+  space,
+  foodApp,
+  leaderboard,
+} from "../../assets/index";
+import ProjectsCard from "./ProjectsCard";
 
 const Projects = () => (
-  <section
-    id="projects"
-    className="w-full py-20 border-b-[1px] border-b-black"
-  >
+  <section id="projects" className="w-full py-20 border-b-[1px] border-b-black">
     <div className="flex justify-center items-center text-center">
       <Title
         title="VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK"
@@ -33,7 +43,8 @@ const Projects = () => (
           <FaReact key="react" />,
           <SiRedux key="redux" />,
           <SiRuby key="ruby" />,
-          <SiRubyonrails key="rubyonrails" />]}
+          <SiRubyonrails key="rubyonrails" />,
+        ]}
       />
       <ProjectsCard
         title="Space Traveler`s Hub"
@@ -47,7 +58,8 @@ const Projects = () => (
           <SiCss3 key="css" />,
           <SiJavascript key="javascript" />,
           <FaReact key="react" />,
-          <SiRedux key="redux" />]}
+          <SiRedux key="redux" />,
+        ]}
       />
       <ProjectsCard
         title="Harry Potter"
@@ -61,7 +73,8 @@ const Projects = () => (
           <SiCss3 key="css" />,
           <SiJavascript key="javascript" />,
           <FaReact key="react" />,
-          <SiRedux key="redux" />]}
+          <SiRedux key="redux" />,
+        ]}
       />
       <ProjectsCard
         title="Leaderboard App"
@@ -74,7 +87,8 @@ const Projects = () => (
           <SiCss3 key="css" />,
           <SiJavascript key="javascript" />,
           <SiWebpack key="webpack" />,
-          <SiEslint key="eslint" />]}
+          <SiEslint key="eslint" />,
+        ]}
       />
       <ProjectsCard
         title="Food App"
@@ -88,7 +102,8 @@ const Projects = () => (
           <SiCss3 key="css" />,
           <SiJavascript key="javascript" />,
           <SiWebpack key="webpack" />,
-          <SiJest key="jest" />]}
+          <SiJest key="jest" />,
+        ]}
       />
       <ProjectsCard
         title="Math Magicians"
@@ -101,7 +116,8 @@ const Projects = () => (
           <SiCss3 key="css" />,
           <SiJavascript key="javascript" />,
           <FaReact key="react" />,
-          <SiEslint key="eslint" />]}
+          <SiEslint key="eslint" />,
+        ]}
       />
     </div>
   </section>

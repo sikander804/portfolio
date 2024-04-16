@@ -1,6 +1,8 @@
-import React from 'react';
+import React from "react";
 import {
-  SiJavascript, SiCss3, SiHtml5,
+  SiJavascript,
+  SiCss3,
+  SiHtml5,
   SiRedux,
   SiRubyonrails,
   SiRuby,
@@ -12,16 +14,13 @@ import {
   SiJquery,
   SiBootstrap,
   SiNodedotjs,
-} from 'react-icons/si';
-import { FaReact, FaDatabase, FaLaptopCode,FaMobileAlt } from 'react-icons/fa';
-import { AiFillAppstore } from 'react-icons/ai';
-import Title from '../layouts/Title';
+} from "react-icons/si";
+import { FaReact, FaDatabase, FaMobileAlt } from "react-icons/fa";
+import { AiFillAppstore } from "react-icons/ai";
+import Title from "../layouts/Title";
 
 const Features = () => (
-  <section
-    id="features"
-    className="w-full py-20 border-b-[1px] border-b-black"
-  >
+  <section id="features" className="w-full py-20 border-b-[1px] border-b-black">
     <Title title="Features" des="What I Do" />
     <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20">
       <div className="w-full px-12 h-120 py-5 rounded-lg shadow-shadowOne flex items-center bg-gradient-to-r from-bodyColor to-[#202327] group hover:bg-gradient-to-b hover:from-black hover:to-[#1e2024] transition-colors duration-100 group">
@@ -125,13 +124,20 @@ const Features = () => (
       </div>
     </div>
     <div className="flex justify-center">
-      <a href="https://docs.google.com/document/d/1IwXLLO4fvZNOSvWIDeYRoJkqy2mqtEjQRLwhXhaMpjw/edit?usp=sharing" target="_blank" className="w-100 mt-20 flex items-center mx-auto" rel="noreferrer">
-        <button type="button" className="w-80 h-12 bg-[#141518] rounded-lg text-base text-gray-400 tracking-wider uppercase hover:text-white duration-300 hover:border-[1px] hover:border-designColor border-transparent">
+      <a
+        href="https://docs.google.com/document/d/1IwXLLO4fvZNOSvWIDeYRoJkqy2mqtEjQRLwhXhaMpjw/edit?usp=sharing"
+        target="_blank"
+        className="w-100 mt-20 flex items-center mx-auto"
+        rel="noreferrer"
+      >
+        <button
+          type="button"
+          className="w-80 h-12 bg-[#141518] rounded-lg text-base text-gray-400 tracking-wider uppercase hover:text-white duration-300 hover:border-[1px] hover:border-designColor border-transparent"
+        >
           See my Resume
         </button>
       </a>
     </div>
-
   </section>
 );
 

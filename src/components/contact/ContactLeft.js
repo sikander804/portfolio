@@ -1,6 +1,6 @@
-import React from 'react';
-import { FaAngellist, FaTwitter, FaLinkedinIn } from 'react-icons/fa';
-import { contactImg } from '../../assets/index';
+import React from "react";
+import { FaAngellist, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { contactImg } from "../../assets/index";
 
 const ContactLeft = () => (
   <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-4 lgl:p-8 rounded-lg shadow-shadowOne flex flex-col gap-8 justify-center">
@@ -11,20 +11,16 @@ const ContactLeft = () => (
     />
     <div className="flex flex-col gap-4">
       <h3 className="text-3xl font-bold text-white">Khusniddin Ismoilov</h3>
-      <p className="text-lg font-normal text-gray-400">
-        Full-Stack Developer
-      </p>
+      <p className="text-lg font-normal text-gray-400">Full-Stack Developer</p>
       <p className="text-base text-gray-400 tracking-wide">
-        In love with pair-programming and remote work. Open to new opportunities.
+        In love with pair-programming and remote work. Open to new
+        opportunities.
       </p>
       <p className="text-base text-gray-400 flex items-center gap-2">
-        Phone:
-        {' '}
-        <span className="text-lightText">+1 415 900 01 55</span>
+        Phone: <span className="text-lightText">+1 415 900 01 55</span>
       </p>
       <p className="text-base text-gray-400 flex items-center gap-2">
-        Email:
-        {' '}
+        Email:{" "}
         <span className="text-lightText">husniddin.ismoilov@gmail.com</span>
       </p>
     </div>

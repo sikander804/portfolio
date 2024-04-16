@@ -1,14 +1,13 @@
-/* eslint-disable react/jsx-props-no-spreading */
-/* eslint-disable react/prop-types */
-/* eslint-disable jsx-a11y/no-static-element-interactions */
-/* eslint-disable jsx-a11y/click-events-have-key-events */
-import React, { useState } from 'react';
-import Slider from 'react-slick';
-import { HiArrowRight, HiArrowLeft } from 'react-icons/hi';
-import Title from '../layouts/Title';
+import React, { useState } from "react";
+import Slider from "react-slick";
+import { HiArrowRight, HiArrowLeft } from "react-icons/hi";
+import Title from "../layouts/Title";
 import {
-  testimonialOne, testimonialTwo, testimonialThree, quote,
-} from '../../assets';
+  testimonialOne,
+  testimonialTwo,
+  testimonialThree,
+  quote,
+} from "../../assets";
 
 function SampleNextArrow(props) {
   const { onClick } = props;
@@ -50,45 +49,44 @@ const Testimonial = () => {
     appendDots: (dots) => (
       <div
         style={{
-          borderRadius: '10px',
-          padding: '10px',
+          borderRadius: "10px",
+          padding: "10px",
         }}
       >
         <ul
           style={{
-            display: 'flex',
-            gap: '15px',
-            justifyContent: 'center',
-            marginTop: '20px',
+            display: "flex",
+            gap: "15px",
+            justifyContent: "center",
+            marginTop: "20px",
           }}
         >
-          {' '}
-          {dots}
-          {' '}
+          {" "}
+          {dots}{" "}
         </ul>
       </div>
     ),
     customPaging: (i) => (
       <div
         style={
-             i === dotActive
-               ? {
-                 width: '12px',
-                 height: '12px',
-                 color: 'blue',
-                 background: '#ff014f',
-                 borderRadius: '50%',
-                 cursor: 'pointer',
-               }
-               : {
-                 width: '12px',
-                 height: '12px',
-                 color: 'blue',
-                 background: 'gray',
-                 borderRadius: '50%',
-                 cursor: 'pointer',
-               }
-           }
+          i === dotActive
+            ? {
+                width: "12px",
+                height: "12px",
+                color: "blue",
+                background: "#ff014f",
+                borderRadius: "50%",
+                cursor: "pointer",
+              }
+            : {
+                width: "12px",
+                height: "12px",
+                color: "blue",
+                background: "gray",
+                borderRadius: "50%",
+                cursor: "pointer",
+              }
+        }
       />
     ),
   };
@@ -130,17 +128,16 @@ const Testimonial = () => {
                     </h3>
                   </div>
                   <p className="text-base font-titleFont text-gray-400 font-small tracking-wide leading-6">
-                    Khusniddin is an exceptional developer who possesses all
-                    the skills one would want in an excellent software developer.
-                    From HTML, JavaScript, and CSS to React,
-                    he masters the top programming languages.
-                    He has been a great resource for our group projects.
-                    He did an incredible job on all projects,
-                    making timely deliveries and helping me
-                    nurture long-term networking relationships.
-                    His work is always top-notch, and he is always welcoming
-                    to feedback and making improvements. Plus, Khusniddin Ismoilov
-                    is self-motivated and a great team player.
+                    Khusniddin is an exceptional developer who possesses all the
+                    skills one would want in an excellent software developer.
+                    From HTML, JavaScript, and CSS to React, he masters the top
+                    programming languages. He has been a great resource for our
+                    group projects. He did an incredible job on all projects,
+                    making timely deliveries and helping me nurture long-term
+                    networking relationships. His work is always top-notch, and
+                    he is always welcoming to feedback and making improvements.
+                    Plus, Khusniddin Ismoilov is self-motivated and a great team
+                    player.
                   </p>
                 </div>
               </div>
@@ -175,16 +172,16 @@ const Testimonial = () => {
                     </h3>
                   </div>
                   <p className="text-base font-titleFont text-gray-400 font-small tracking-wide leading-6">
-                    Khusniddin is an intelligent developer who
-                    effortlessly solves web development challenges.
-                    Through our collaboration on numerous projects,
-                    I have observed his remarkable skills and unwavering
-                    dedication as a coding partner. His proficiency in
-                    JavaScript, Ruby, and Redux has significantly benefited our
-                    team, enabling us to consistently complete projects ahead of
-                    schedule. I am impressed by his punctuality, reliability, and
-                    overall pleasant demeanor. I enthusiastically endorse him for
-                    anyone seeking assistance with their team or web development project.
+                    Khusniddin is an intelligent developer who effortlessly
+                    solves web development challenges. Through our collaboration
+                    on numerous projects, I have observed his remarkable skills
+                    and unwavering dedication as a coding partner. His
+                    proficiency in JavaScript, Ruby, and Redux has significantly
+                    benefited our team, enabling us to consistently complete
+                    projects ahead of schedule. I am impressed by his
+                    punctuality, reliability, and overall pleasant demeanor. I
+                    enthusiastically endorse him for anyone seeking assistance
+                    with their team or web development project.
                   </p>
                 </div>
               </div>
@@ -219,17 +216,18 @@ const Testimonial = () => {
                     </h3>
                   </div>
                   <p className="text-base font-titleFont text-gray-400 font-small tracking-wide leading-6">
-                    Khusniddin is a highly skilled professional who excels
-                    in effective communication. His professionalism is truly
-                    inspiring, and he consistently provides valuable support
-                    in various ways. Working together on an app development project,
-                    Khusniddin proved to be an exceptional team player, contributing
-                    significantly to its success.
-                    He actively participates in all meetings, contributing ideas,
-                    writing code, and managing the app. He is a thorough and well-mannered
-                    individual, consistently communicating in a polite and respectful manner.
-                    If you are seeking to have the absolute best team players on your team,
-                    he would undoubtedly be an exceptional fit.
+                    Khusniddin is a highly skilled professional who excels in
+                    effective communication. His professionalism is truly
+                    inspiring, and he consistently provides valuable support in
+                    various ways. Working together on an app development
+                    project, Khusniddin proved to be an exceptional team player,
+                    contributing significantly to its success. He actively
+                    participates in all meetings, contributing ideas, writing
+                    code, and managing the app. He is a thorough and
+                    well-mannered individual, consistently communicating in a
+                    polite and respectful manner. If you are seeking to have the
+                    absolute best team players on your team, he would
+                    undoubtedly be an exceptional fit.
                   </p>
                 </div>
               </div>

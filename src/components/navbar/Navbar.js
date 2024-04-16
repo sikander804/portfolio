@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
-import { Link } from 'react-scroll';
-import { FiMenu } from 'react-icons/fi';
-import { FaAngellist, FaTwitter, FaLinkedinIn } from 'react-icons/fa';
-import { MdClose } from 'react-icons/md';
-import navLinksdata from '../../constants';
+import React, { useState } from "react";
+import { Link } from "react-scroll";
+import { FiMenu } from "react-icons/fi";
+import { FaAngellist, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { MdClose } from "react-icons/md";
+import navLinksdata from "../../constants";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -59,7 +59,9 @@ const Navbar = () => {
                 ))}
               </ul>
               <div className="flex flex-col gap-4">
-                <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
+                <h2 className="text-base uppercase font-titleFont mb-4">
+                  Find me in
+                </h2>
                 <div className="flex gap-4">
                   <span className="bannerIcon">
                     <a
@@ -70,10 +72,7 @@ const Navbar = () => {
                     </a>
                   </span>
                   <span className="bannerIcon">
-                    <a
-                      href="https://twitter.com/Uz_Mnemonist"
-                      target="blank"
-                    >
+                    <a href="https://twitter.com/Uz_Mnemonist" target="blank">
                       <FaTwitter />
                     </a>
                   </span>
