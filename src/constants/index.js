@@ -15,11 +15,6 @@ export default [
     link: 'projects',
   },
   {
-    _id: 1004,
-    title: 'Testimonial',
-    link: 'testimonial',
-  },
-  {
     _id: 1005,
     title: 'Contact',
     link: 'contact',
