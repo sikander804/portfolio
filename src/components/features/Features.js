@@ -1,23 +1,25 @@
-import React from "react";
+import React from "react"
 import {
-  SiJavascript,
-  SiCss3,
-  SiHtml5,
+  // SiJavascript,
+  // SiCss3,
+  // SiHtml5,
   SiRedux,
-  SiRubyonrails,
-  SiRuby,
   SiPostgresql,
-  SiMysql,
-  SiGit,
-  SiGithub,
-  SiJest,
-  SiJquery,
-  SiBootstrap,
+  SiGraphql,
   SiNodedotjs,
-} from "react-icons/si";
-import { FaReact, FaDatabase, FaMobileAlt } from "react-icons/fa";
-import { AiFillAppstore } from "react-icons/ai";
-import Title from "../layouts/Title";
+  SiRubyonrails,
+  SiMongodb,
+  SiFirebase,
+  SiAwsamplify,
+  SiNextdotjs,
+  SiTypescript,
+  SiGatsby,
+} from "react-icons/si"
+import { FaReact, FaDatabase, FaMobileAlt } from "react-icons/fa"
+import { AiFillAppstore } from "react-icons/ai"
+import { TbBrandReactNative } from "react-icons/tb"
+
+import Title from "../layouts/Title"
 
 const Features = () => (
   <section id="features" className="w-full py-20 border-b-[1px] border-b-black">
@@ -38,19 +40,52 @@ const Features = () => (
             </div>
             <div className="flex gap-4 mt-5">
               <span className="bannerIcon">
-                <SiHtml5 />
-              </span>
-              <span className="bannerIcon">
-                <SiCss3 />
-              </span>
-              <span className="bannerIcon">
-                <SiJavascript />
-              </span>
-              <span className="bannerIcon">
                 <FaReact />
               </span>
               <span className="bannerIcon">
+                <SiNextdotjs />
+              </span>
+              <span className="bannerIcon">
+                <SiTypescript />
+              </span>
+              <span className="bannerIcon">
+                <SiGatsby />
+              </span>
+              <span className="bannerIcon">
                 <SiRedux />
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="w-full px-12 h-120 py-5 rounded-lg shadow-shadowOne flex items-center bg-gradient-to-r from-bodyColor to-[#202327] group hover:bg-gradient-to-b hover:from-black hover:to-[#1e2024] transition-colors duration-100 group">
+        <div className="h-90 overflow-y-hidden">
+          <div className="flex h-full flex-col gap-10 translate-y-16 group-hover:translate-y-0 transition-transform duration-500">
+            <div className="w-10 h-6 flex flex-col justify-between">
+              <span className="text-5xl text-designColor">
+                <FaMobileAlt />
+              </span>
+            </div>
+            <div className="flex flex-col gap-6">
+              <h2 className="text-xl md:text-2xl font-titleFont font-bold text-gray-300">
+                Mobile App development
+              </h2>
+            </div>
+            <div className="flex gap-4 mt-5">
+              <span className="bannerIcon">
+                <TbBrandReactNative />
+              </span>
+              <span className="bannerIcon">
+                <SiGraphql />
+              </span>
+              <span className="bannerIcon">
+                <SiRedux />
+              </span>
+              <span className="bannerIcon">
+                <SiAwsamplify />
+              </span>
+              <span className="bannerIcon">
+                <SiFirebase />
               </span>
             </div>
           </div>
@@ -71,7 +106,10 @@ const Features = () => (
             </div>
             <div className="flex gap-4 mt-5">
               <span className="bannerIcon">
-                <SiRuby />
+                <SiNodedotjs />
+              </span>
+              <span className="bannerIcon">
+                <SiGraphql />
               </span>
               <span className="bannerIcon">
                 <SiRubyonrails />
@@ -80,43 +118,7 @@ const Features = () => (
                 <SiPostgresql />
               </span>
               <span className="bannerIcon">
-                <SiMysql />
-              </span>
-              <span className="bannerIcon">
-                <SiNodedotjs />
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="w-full px-12 h-120 py-5 rounded-lg shadow-shadowOne flex items-center bg-gradient-to-r from-bodyColor to-[#202327] group hover:bg-gradient-to-b hover:from-black hover:to-[#1e2024] transition-colors duration-100 group">
-        <div className="h-90 overflow-y-hidden">
-          <div className="flex h-full flex-col gap-10 translate-y-16 group-hover:translate-y-0 transition-transform duration-500">
-            <div className="w-10 h-6 flex flex-col justify-between">
-              <span className="text-5xl text-designColor">
-                <FaMobileAlt />
-              </span>
-            </div>
-            <div className="flex flex-col gap-6">
-              <h2 className="text-xl md:text-2xl font-titleFont font-bold text-gray-300">
-                Tools and Technologies
-              </h2>
-            </div>
-            <div className="flex gap-4 mt-5">
-              <span className="bannerIcon">
-                <SiGit />
-              </span>
-              <span className="bannerIcon">
-                <SiGithub />
-              </span>
-              <span className="bannerIcon">
-                <SiJest />
-              </span>
-              <span className="bannerIcon">
-                <SiBootstrap />
-              </span>
-              <span className="bannerIcon">
-                <SiJquery />
+                <SiMongodb />
               </span>
             </div>
           </div>
@@ -139,6 +141,6 @@ const Features = () => (
       </a>
     </div>
   </section>
-);
+)
 
-export default Features;
+export default Features
