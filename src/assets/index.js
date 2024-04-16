@@ -1,4 +1,4 @@
-import bannerImg from "./images/bannerImg.png";
+import bannerImg from "./images/portfolio.png";
 import carRental from "./images/projects/carRental.png";
 import hpChar from "./images/projects/HP_Char.png";
 import math from "./images/projects/Math.png";
