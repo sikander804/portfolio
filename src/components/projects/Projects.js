@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 import {
   SiJavascript,
   SiRuby,
@@ -10,9 +10,9 @@ import {
   SiWebpack,
   SiEslint,
   SiJest,
-} from "react-icons/si";
-import { FaReact } from "react-icons/fa";
-import Title from "../layouts/Title";
+} from "react-icons/si"
+import { FaReact } from "react-icons/fa"
+import Title from "../layouts/Title"
 import {
   carRental,
   hpChar,
@@ -20,8 +20,8 @@ import {
   space,
   foodApp,
   leaderboard,
-} from "../../assets/index";
-import ProjectsCard from "./ProjectsCard";
+} from "../../assets/index"
+import ProjectsCard from "./ProjectsCard"
 
 const Projects = () => (
   <section id="projects" className="w-full py-20 border-b-[1px] border-b-black">
@@ -121,6 +121,6 @@ const Projects = () => (
       />
     </div>
   </section>
-);
+)
 
-export default Projects;
+export default Projects

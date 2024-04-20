@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 const FooterBottom = () => (
   <div className="w-full py-10">
@@ -6,6 +6,6 @@ const FooterBottom = () => (
       © 2023. All rights reserved
     </p>
   </div>
-);
+)
 
-export default FooterBottom;
+export default FooterBottom

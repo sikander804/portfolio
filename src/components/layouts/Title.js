@@ -1,5 +1,5 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from "react"
+import PropTypes from "prop-types"
 
 const Title = ({ title, des }) => (
   <div className="flex flex-col gap-4 font-titleFont mb-14">
@@ -10,11 +10,11 @@ const Title = ({ title, des }) => (
       {des}
     </p>
   </div>
-);
+)
 
 Title.propTypes = {
   title: PropTypes.string.isRequired,
   des: PropTypes.string.isRequired,
-};
+}
 
-export default Title;
+export default Title

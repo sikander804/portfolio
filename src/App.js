@@ -1,11 +1,11 @@
-import React from "react";
-import Banner from "./components/banner/Banner";
-import Contact from "./components/contact/Contact";
-import Features from "./components/features/Features";
-import FooterBottom from "./components/footer/FooterBottom";
-import Navbar from "./components/navbar/Navbar";
-import Projects from "./components/projects/Projects";
-import Testimonial from "./components/tesimonial/Testimonial";
+import React from "react"
+import Banner from "./components/banner/Banner"
+import Contact from "./components/contact/Contact"
+import Features from "./components/features/Features"
+import FooterBottom from "./components/footer/FooterBottom"
+import Navbar from "./components/navbar/Navbar"
+import Projects from "./components/projects/Projects"
+import Testimonial from "./components/tesimonial/Testimonial"
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
         <FooterBottom />
       </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

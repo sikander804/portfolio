@@ -1,16 +1,16 @@
-import React, { useState } from "react";
-import Slider from "react-slick";
-import { HiArrowRight, HiArrowLeft } from "react-icons/hi";
-import Title from "../layouts/Title";
+import React, { useState } from "react"
+import Slider from "react-slick"
+import { HiArrowRight, HiArrowLeft } from "react-icons/hi"
+import Title from "../layouts/Title"
 import {
   testimonialOne,
   testimonialTwo,
   testimonialThree,
   quote,
-} from "../../assets";
+} from "../../assets"
 
 function SampleNextArrow(props) {
-  const { onClick } = props;
+  const { onClick } = props
   return (
     <div
       className="w-14 h-12 bg-[#0c1821] hover:bg-black duration-300 rounded-md text-2xl text-gray-400 flex justify-center items-center absolute top-0 right-0 shadow-shadowOne cursor-pointer z-10"
@@ -18,11 +18,11 @@ function SampleNextArrow(props) {
     >
       <HiArrowRight />
     </div>
-  );
+  )
 }
 
 function SamplePrevArrow(props) {
-  const { onClick } = props;
+  const { onClick } = props
   return (
     <div
       className="w-14 h-12 bg-[#0c1821] hover:bg-black duration-300 rounded-md text-2xl text-gray-400 flex justify-center items-center absolute top-0 right-20 shadow-shadowOne cursor-pointer z-10"
@@ -30,11 +30,11 @@ function SamplePrevArrow(props) {
     >
       <HiArrowLeft />
     </div>
-  );
+  )
 }
 
 const Testimonial = () => {
-  const [dotActive, setDocActive] = useState(0);
+  const [dotActive, setDocActive] = useState(0)
   const settings = {
     dots: true,
     infinite: true,
@@ -44,7 +44,7 @@ const Testimonial = () => {
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
     beforeChange: (prev, next) => {
-      setDocActive(next);
+      setDocActive(next)
     },
     appendDots: (dots) => (
       <div
@@ -89,7 +89,7 @@ const Testimonial = () => {
         }
       />
     ),
-  };
+  }
   return (
     <section
       id="testimonial"
@@ -236,7 +236,7 @@ const Testimonial = () => {
         </Slider>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Testimonial;
+export default Testimonial
