@@ -1,6 +1,6 @@
-import React from "react";
-import { useTypewriter, Cursor } from "react-simple-typewriter";
-import { FaLinkedinIn, FaReact, FaGithub, FaAngellist } from "react-icons/fa";
+import React from "react"
+import { useTypewriter, Cursor } from "react-simple-typewriter"
+import { FaLinkedinIn, FaReact, FaGithub, FaAngellist } from "react-icons/fa"
 import {
   SiJavascript,
   SiTypescript,
@@ -9,7 +9,7 @@ import {
   SiNextdotjs,
   SiFirebase,
   SiNodedotjs,
-} from "react-icons/si";
+} from "react-icons/si"
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
@@ -18,7 +18,7 @@ const LeftBanner = () => {
     typeSpeed: 20,
     deleteSpeed: 10,
     delaySpeed: 2000,
-  });
+  })
   return (
     <div className="w-full lgl:w-1/2 flex flex-col gap-20">
       <div className="flex flex-col gap-5">
@@ -29,7 +29,7 @@ const LeftBanner = () => {
           Hi, I&apos;m{" "}
           <span className="text-designColor capitalize">Sikander Ahmad</span>
         </h1>
-        <h2 className="text-4xl font-bold text-white">
+        <h2 className="text-4xl font-bold text-white h-8">
           a <span>{text}</span>
           <Cursor
             cursorBlinking="false"
@@ -114,7 +114,7 @@ const LeftBanner = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default LeftBanner;
+export default LeftBanner
