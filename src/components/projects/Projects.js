@@ -14,6 +14,7 @@ import {
   SiAwsamplify,
   SiTypescript,
   SiGraphql,
+  SiFirebase,
 } from "react-icons/si"
 import { FaReact } from "react-icons/fa"
 import Title from "../layouts/Title"
@@ -45,7 +46,7 @@ const Projects = () => (
         icons={[
           <FaReact key="react" />,
           <SiNextdotjs key="nextjs" />,
-          <SiTypescript key="ruby" />,
+          <SiTypescript key="typescript" />,
           <SiAwsamplify key="awsAmplify" />,
           <SiGraphql key="rubyonrails" />,
         ]}
@@ -57,10 +58,9 @@ const Projects = () => (
         // githubLink="https://github.com/KIsmoilov/Space-Traveler-s-Hub"
         demoLink="https://lstn.ai/"
         icons={[
-          <SiHtml5 key="html" />,
-          <SiCss3 key="css" />,
-          <SiJavascript key="javascript" />,
           <FaReact key="react" />,
+          <SiTypescript key="typescript" />,
+          <SiFirebase key="firebase" />,
           <SiRedux key="redux" />,
         ]}
       />
