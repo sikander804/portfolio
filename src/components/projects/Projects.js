@@ -14,7 +14,7 @@ import {
 import { FaReact } from "react-icons/fa"
 import Title from "../layouts/Title"
 import {
-  carRental,
+  reView,
   hpChar,
   math,
   space,
@@ -33,11 +33,11 @@ const Projects = () => (
     </div>
     <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
       <ProjectsCard
-        title="Rental Car App"
-        des="This is a user-friendly car rental management app that allows users to reserve cars for rental, add new cars, and delete existing ones."
-        src={carRental}
-        githubLink="https://github.com/wassimchakib/Car-Rental-Front-End"
-        demoLink="https://car-rental-front-end.vercel.app/"
+        title="Re-View AI"
+        des="Re-View AI is a versatile tool designed for effortlessly gathering video feedback. Trusted by companies globally, it's the go-to choice for capturing testimonials, conducting sales training, performing UX research, screening job applicants, facilitating manager check-ins, and beyond."
+        src={reView}
+        // githubLink="https://github.com/wassimchakib/Car-Rental-Front-End"
+        demoLink="https://re-view.ai/"
         icons={[
           <SiTailwindcss key="tailwindcss" />,
           <FaReact key="react" />,
@@ -47,7 +47,7 @@ const Projects = () => (
         ]}
       />
       <ProjectsCard
-        title="Space Traveler`s Hub"
+        title="LSTN AI"
         des=" This is a React Web App with the real live data from the SpaceX API.
         The application allows users to book rockets and join selected space missions."
         src={space}

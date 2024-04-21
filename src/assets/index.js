@@ -1,5 +1,5 @@
 import bannerImg from "./images/portfolio.png"
-import carRental from "./images/projects/carRental.png"
+import reView from "./images/projects/re-view.png"
 import hpChar from "./images/projects/HP_Char.png"
 import math from "./images/projects/Math.png"
 import space from "./images/projects/Space.jpeg"
@@ -13,7 +13,7 @@ import contactImg from "./images/contact/contactImg.png"
 
 export {
   bannerImg,
-  carRental,
+  reView,
   hpChar,
   math,
   space,

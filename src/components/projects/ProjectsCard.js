@@ -20,14 +20,16 @@ const ProjectsCard = ({ title, des, src, githubLink, demoLink, icons }) => (
             {title}
           </h3>
           <div className="flex gap-2">
-            <a
-              href={githubLink}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer"
-            >
-              <BsGithub />
-            </a>
+            {githubLink?.length && (
+              <a
+                href={githubLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer"
+              >
+                <BsGithub />
+              </a>
+            )}
             <a
               href={demoLink}
               target="_blank"
