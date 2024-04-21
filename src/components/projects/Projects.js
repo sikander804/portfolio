@@ -1,23 +1,27 @@
 import React from "react"
 import {
   SiJavascript,
-  SiRuby,
-  SiRubyonrails,
+  // SiRuby,
+  // SiRubyonrails,
   SiCss3,
   SiHtml5,
   SiRedux,
-  SiTailwindcss,
+  // SiTailwindcss,
   SiWebpack,
   SiEslint,
   SiJest,
+  SiNextdotjs,
+  SiAwsamplify,
+  SiTypescript,
+  SiGraphql,
 } from "react-icons/si"
 import { FaReact } from "react-icons/fa"
 import Title from "../layouts/Title"
 import {
   reView,
+  lstn,
   hpChar,
   math,
-  space,
   foodApp,
   leaderboard,
 } from "../../assets/index"
@@ -39,20 +43,19 @@ const Projects = () => (
         // githubLink="https://github.com/wassimchakib/Car-Rental-Front-End"
         demoLink="https://re-view.ai/"
         icons={[
-          <SiTailwindcss key="tailwindcss" />,
           <FaReact key="react" />,
-          <SiRedux key="redux" />,
-          <SiRuby key="ruby" />,
-          <SiRubyonrails key="rubyonrails" />,
+          <SiNextdotjs key="nextjs" />,
+          <SiTypescript key="ruby" />,
+          <SiAwsamplify key="awsAmplify" />,
+          <SiGraphql key="rubyonrails" />,
         ]}
       />
       <ProjectsCard
         title="LSTN AI"
-        des=" This is a React Web App with the real live data from the SpaceX API.
-        The application allows users to book rockets and join selected space missions."
-        src={space}
-        githubLink="https://github.com/KIsmoilov/Space-Traveler-s-Hub"
-        demoLink="https://space-travelers-hub-astn.onrender.com/"
+        des="Lstn is a valuable tool designed to enhance productivity within the media sector. It leverages artificial intelligence to seamlessly transcribe and caption audio and video content. By harnessing the power of AI, Lstn enables users to maximize the value of their media content effortlessly."
+        src={lstn}
+        // githubLink="https://github.com/KIsmoilov/Space-Traveler-s-Hub"
+        demoLink="https://lstn.ai/"
         icons={[
           <SiHtml5 key="html" />,
           <SiCss3 key="css" />,
