@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.04732dca.css",
-    "main.js": "/portfolio/static/js/main.285a4e91.js",
-    "static/media/carRental.png": "/portfolio/static/media/carRental.488c99559d21d2723f8d.png",
+    "main.js": "/portfolio/static/js/main.eaf3a8eb.js",
     "static/media/portfolio.png": "/portfolio/static/media/portfolio.bc01d24ffc8758b2355b.png",
     "static/media/leaderboard.png": "/portfolio/static/media/leaderboard.fa6b190fe07d6dd41c6b.png",
     "static/media/foodApp.png": "/portfolio/static/media/foodApp.638876459b2aaa759465.png",
     "static/media/HP_Char.png": "/portfolio/static/media/HP_Char.2331021937fd35063c02.png",
+    "static/media/lstn.png": "/portfolio/static/media/lstn.52e0e7da02580cdc424e.png",
+    "static/media/re-view.png": "/portfolio/static/media/re-view.cc85569b90558e2f644b.png",
     "static/media/Math.png": "/portfolio/static/media/Math.636f31c5425b41f9f152.png",
     "static/media/Space.jpeg": "/portfolio/static/media/Space.305de438d64fc26218ee.jpeg",
     "static/media/testimonialOne.png": "/portfolio/static/media/testimonialOne.9fac16a3117eb6e1e7df.png",
@@ -15,10 +16,10 @@
     "static/media/testimonialThree.png": "/portfolio/static/media/testimonialThree.90d3cd869359cfb7c408.png",
     "index.html": "/portfolio/index.html",
     "main.04732dca.css.map": "/portfolio/static/css/main.04732dca.css.map",
-    "main.285a4e91.js.map": "/portfolio/static/js/main.285a4e91.js.map"
+    "main.eaf3a8eb.js.map": "/portfolio/static/js/main.eaf3a8eb.js.map"
   },
   "entrypoints": [
     "static/css/main.04732dca.css",
-    "static/js/main.285a4e91.js"
+    "static/js/main.eaf3a8eb.js"
   ]
 }
